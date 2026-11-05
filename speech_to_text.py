@@ -3,7 +3,7 @@ from pydub import AudioSegment
 import os
 
 # Convert MP3 to WAV
-sound = AudioSegment.from_mp3("sample-9s.mp3")
+sound = AudioSegment.from_mp3("sample-9s (2).mp3")
 sound.export("sample.wav", format="wav")
 
 # Speech recognition
